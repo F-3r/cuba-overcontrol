@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    cuba-overcontrol (1.0.0)
+      cuba (~> 3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (9.1.0)
+    cuba (3.9.0)
+      rack (>= 1.6.0)
+    minitest (5.10.3)
+    rack (2.0.3)
+    rack-test (0.8.2)
+      rack (>= 1.0, < 3)
+    tilt (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.7)
+  byebug
+  cuba-overcontrol!
+  minitest
+  rack-test
+  tilt
+
+BUNDLED WITH
+   1.16.0
