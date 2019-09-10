@@ -2,25 +2,25 @@ PATH
   remote: .
   specs:
     cuba-overcontrol (1.0.0)
-      cuba (~> 3.0)
+      cuba
 
 GEM
   remote: https://rubygems.org/
   specs:
-    byebug (9.1.0)
-    cuba (3.9.0)
+    byebug (11.0.1)
+    cuba (3.9.2)
       rack (>= 1.6.0)
-    minitest (5.10.3)
-    rack (2.0.3)
-    rack-test (0.8.2)
+    minitest (5.11.3)
+    rack (2.0.7)
+    rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    tilt (2.0.8)
+    tilt (2.0.9)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.7)
+  bundler
   byebug
   cuba-overcontrol!
   minitest
@@ -28,4 +28,4 @@ DEPENDENCIES
   tilt
 
 BUNDLED WITH
-   1.16.0
+   1.17.2
